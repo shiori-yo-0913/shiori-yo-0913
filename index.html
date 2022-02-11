@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>BORABORA Island</title>
+    
+    <!-- CSS -->
+<link rel="stylesheet" href="index.css">
+    <!-- lightbox.css -->
+<link rel="stylesheet" href="lightbox.min.css">
+    <!-- jquery -->
+<script src="jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    
+    <!-- 背景指定 -->
+    <div id="particles-js"></div>
+    <div id="wrapper">
+        
+        <!-- header -->
+        <header>
+            <div class="header_left">
+                <img src="img/logo.png">
+            </div>
+            <div class="header_right">
+                <ul>
+                    <li class="orange"><a href="#profile">島主紹介</a></li>
+                    <li class="green"><a href="#title">島マップ</a></li>
+                    <li class="pink"><a href="#animal_list">住民一覧</a></li>
+                    <li class="blue"><a href="#gallery">ギャラリー</a></li>
+                    <li class="yellow"><a href="#movie">過去作品</a></li>
+                </ul>
+            </div>
+        </header>
+        <!-- /header -->
+        
+        <!-- 自己紹介 -->
+        <div id="profile">
+            <h1>島主紹介</h1>
+            <div class="explanation">
+                <div class="profile_image">
+                <img src="img/profile.jpg">
+                </div>
+                <dl>
+                    <dt>島のなまえ</dt>
+                    <dd>ボラボラ島</dd>
+                    <dt>島民代表</dt>
+                    <dd>しおり</dd>
+                    <dt>季節</dt>
+                    <dd>北半球(冬固定)</dd>
+                    <dt>特産品</dt>
+                    <dd>りんご</dd>
+                    <dt>夢番地</dt>
+                    <dd>DA-7642-5429-7200(夏島)</dd>
+                    <dt>ツクッターID</dt>
+                    <dd>RA-2669-5386-6295</dd>
+                </dl>
+            </div>
+            <p>しおりの自己紹介サイトをご覧いただきありがとうございます<br>私の趣味は音楽、料理、ゲーム、映画、漫画などたくさんありますがほとんどは浅く広く楽しんでいます<br>そんな私ですがあつまれどうぶつの森だけはやりこんでます笑<br><br>自己紹介は何にしようかな〜とすごく悩みましたが今回はやはり<br>私の作った島を皆さんにみていただきたいなと思いテーマを<br><span>「あつまれどうぶつの森、自己満島紹介サイト」</span><br>にいたしました。ゆっくりみていただけると嬉しいです！</p>
+        </div>
+        <!-- /自己紹介 -->
+        
+        <!-- タイトル -->
+        <div id="title">
+                <h1>ボラボラ島 おさんぽマップ</h1>
+            </div>
+        <!-- 島マップ -->
+        <div id="island">
+            <div class="map">
+                <img src="img/map.jpg">
+                <p class="map_num1">1</p>
+                <p class="map_num2">2</p>
+                <p class="map_num3">3</p>
+                <p class="map_num4">4</p>
+                <p class="map_num5">5</p>
+                <p class="map_num6">6</p>
+                <p class="map_num7">7</p>
+                <p class="map_num8">8</p>
+                <p class="map_num9">9</p>
+                <P class="map_num10">10</P>
+                <P class="map_num11">11</P>
+            </div>
+            <div class="map_image">
+                <p class="map_str"></p>
+            </div>
+        </div>
+        <h3>※左マップ上の数字に触れると右側にプレビューが表示されます</h3>
+        <!-- /島マップ -->
+        <!-- 住民一覧 -->
+        <div id="animal_list">
+            <h1>住民一覧</h1>
+        <ul>
+            <li>
+                <img src="img/chachamaru.png">
+                <dl>
+                    <dt>なまえ</dt>
+                    <dd>ちゃちゃまる</dd>
+                    <dt>せいべつ</dt>
+                    <dd>おとこのこ</dd>
+                    <dt>しゅるい</dt>
+                    <dd>ひつじ</dd>
+                    <dt>タイプ</dt>
+                    <dd>ハキハキ</dd>
+                </dl>
+            </li>
+            <li>
+                <img src="img/misuzu.png">
+                <dl>
+                    <dt>なまえ</dt>
+                    <dd>みすず</dd>
+                    <dt>せいべつ</dt>
+                    <dd>おんなのこ</dd>
+                    <dt>しゅるい</dt>
+                    <dd>くま</dd>
+                    <dt>タイプ</dt>
+                    <dd>オトナ</dd>
+                </dl>
+            </li>
+            <li>
+                <img src="img/jun.jpeg">
+                <dl>
+                    <dt>なまえ</dt>
+                    <dd>ジュン</dd>
+                    <dt>せいべつ</dt>
+                    <dd>おとこのこ</dd>
+                    <dt>しゅるい</dt>
+                    <dd>リス</dd>
+                    <dt>タイプ</dt>
+                    <dd>キザ</dd>
+                </dl>
+            </li>
+            <li>
+                <img src="img/yukimi.jpeg">
+                <dl>
+                    <dt>なまえ</dt>
+                    <dd>ゆきみ</dd>
+                    <dt>せいべつ</dt>
+                    <dd>おんなのこ</dd>
+                    <dt>しゅるい</dt>
+                    <dd>ハムスター</dd>
+                    <dt>タイプ</dt>
+                    <dd>普通</dd>
+                </dl>
+            </li>
+            <li>
+                <img src="img/siberia.jpeg">
+                <dl>
+                    <dt>なまえ</dt>
+                    <dd>シベリア</dd>
+                    <dt>せいべつ</dt>
+                    <dd>おとこのこ</dd>
+                    <dt>しゅるい</dt>
+                    <dd>オオカミ</dd>
+                    <dt>タイプ</dt>
+                    <dd>コワイ</dd>
+                </dl>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <img src="img/bianka.jpeg">
+                <dl>
+                    <dt>なまえ</dt>
+                    <dd>ビアンカ</dd>
+                    <dt>せいべつ</dt>
+                    <dd>おんなのこ</dd>
+                    <dt>しゅるい</dt>
+                    <dd>オオカミ</dd>
+                    <dt>タイプ</dt>
+                    <dd>オトナ</dd>
+                </dl>
+            </li>
+            <li>
+                <img src="img/ririan.jpeg">
+                <dl>
+                    <dt>なまえ</dt>
+                    <dd>リリアン</dd>
+                    <dt>せいべつ</dt>
+                    <dd>おんなのこ</dd>
+                    <dt>しゅるい</dt>
+                    <dd>うさぎ</dd>
+                    <dt>タイプ</dt>
+                    <dd>元気</dd>
+                </dl>
+            </li>
+            <li>
+                <img src="img/ai-da.jpeg">
+                <dl>
+                    <dt>なまえ</dt>
+                    <dd>アイーダ</dd>
+                    <dt>せいべつ</dt>
+                    <dd>おんなのこ</dd>
+                    <dt>しゅるい</dt>
+                    <dd>カエル</dd>
+                    <dt>タイプ</dt>
+                    <dd>アネキ</dd>
+                </dl>
+            </li>
+            <li>
+                <img src="img/ramune.jpeg">
+                <dl>
+                    <dt>なまえ</dt>
+                    <dd>ラムネ</dd>
+                    <dt>せいべつ</dt>
+                    <dd>おんなのこ</dd>
+                    <dt>しゅるい</dt>
+                    <dd>ネコ</dd>
+                    <dt>タイプ</dt>
+                    <dd>普通</dd>
+                </dl>
+            </li>
+            <li>
+                <img src="img/makiba.jpeg">
+                <dl>
+                    <dt>なまえ</dt>
+                    <dd>まきば</dd>
+                    <dt>せいべつ</dt>
+                    <dd>おんなのこ</dd>
+                    <dt>しゅるい</dt>
+                    <dd>ウシ</dd>
+                    <dt>タイプ</dt>
+                    <dd>オトナ</dd>
+                </dl>
+            </li>
+        </ul>
+        </div>
+        <!-- /住民一覧 -->
+        
+        <!-- 島の写真一覧 -->
+        <div id="gallery">
+            <h1>お部屋の写真一覧</h1>
+            <ul class="gallery">
+                <li><a href="img/bathroom.JPG" data-lightbox="gallery1"><img src="img/bathroom.JPG" alt="バスルーム1"></a></li>
+                <li><a href="img/bathroom02.JPG" data-lightbox="gallery1"><img src="img/bathroom02.JPG" alt="バスルーム2"></a></li>
+                <li><a href="img/bathroom03.JPG" data-lightbox="gallery1"><img src="img/bathroom03.JPG" alt="バスルーム3"></a></li>
+                <li><a href="img/bathroom04.JPG" data-lightbox="gallery1"><img src="img/bathroom04.JPG" alt="バスルーム4"></a></li>
+                <li><a href="img/room.JPG" data-lightbox="gallery1"><img src="img/room.JPG" alt="リビング"></a></li>
+                <li><a href="img/room02.JPG" data-lightbox="gallery1"><img src="img/room02.JPG" alt="リビング"></a></li>
+                <li><a href="img/room03.JPG" data-lightbox="gallery1"><img src="img/room03.JPG" alt="リビング"></a></li>
+                <li><a href="img/room04.JPG" data-lightbox="gallery1"><img src="img/room04.JPG" alt="リビング"></a></li>
+                <li><a href="img/room05.JPG" data-lightbox="gallery1"><img src="img/room05.JPG" alt="リビング"></a></li>
+                <li><a href="img/room06.JPG" data-lightbox="gallery1"><img src="img/room06.JPG" alt="リビング"></a></li>
+                <li><a href="img/room07.JPG" data-lightbox="gallery1"><img src="img/room07.JPG" alt="リビング"></a></li>
+                <li><a href="img/kids-room.JPG" data-lightbox="gallery1"><img src="img/kids-room.JPG" alt="リビング"></a></li>
+                <li><a href="img/kids-room02.JPG" data-lightbox="gallery1"><img src="img/kids-room02.JPG" alt="リビング"></a></li>
+                <li><a href="img/gameroom.JPG" data-lightbox="gallery1"><img src="img/gameroom.JPG" alt="リビング"></a></li>
+                <li><a href="img/modern-room.JPG" data-lightbox="gallery1"><img src="img/modern-room.JPG" alt="リビング"></a></li>
+                <li><a href="img/japanese-room.JPG" data-lightbox="gallery1"><img src="img/japanese-room.JPG" alt="リビング"></a></li>
+            </ul>
+        </div>
+        <!-- /島の写真一覧 -->
+        <!-- 過去の島の動画 -->
+        <div id="movie">
+            <h1>過去作品</h1>
+            <p>ボラボラ島の名前はフランス領ポリネシアの島から取りました<br>実際にあるボラボラ島は海に囲われた自然の多い島です<br><br>現在私の島のボラボラ島は冬固定で現代的な島ですが<br>過去作品では実際のボラボラ島をイメージした夏島でした<br><br>島の中央には大きな湖があり眺めの良いお散歩ができます<br>島の奥には隠された土地があり冒険するのにちょうど良いかもしれません<br>夜はライトアップもされるので幻想的な秘境を見ることができます<br><br><span>↓下の画像をクリックしておさんぽ動画を見てみてね↓</span></p>
+            <a href="https://video.twimg.com/ext_tw_video/1439917942058078209/pu/vid/1280x720/kVH5b9_PGzXd_6f6.mp4?tag=12" target="_blank" rel="noopener noreferrer"><img src="img/movie01.jpg"></a>
+            <br>
+            <a href="https://video.twimg.com/ext_tw_video/1422610513435926528/pu/vid/720x720/7Uc06ewgnNkixQVR.mp4?tag=12" target="_blank" rel="noopener noreferrer"><img src="img/movie02.jpg"></a>
+        </div>
+        <!-- /過去の島の動画 -->
+        <!-- footetr -->
+        <footer>
+            <p>Copyright &copy; BORANORA Island - All Rights Reserved.</p>
+        </footer>
+        <!-- /footer -->
+    </div>
+    <!--/背景指定-->
+    
+    <!-- particle.js -->
+    <script src="particles.js"></script>
+    <script src="particles.min.js"></script>
+    <!-- lightbox.js -->
+    <script src="lightbox.min.js"></script>
+    <!--自作のJS-->
+    <script src="index.js"></script>
+</body>
+    <script type="text/javascript">
+        $(function() {
+            // ①ホバー時に
+            $(".map_num1").hover(function() {
+                //画像変更
+                $(".map_image").css({'background-image' : 'url(img/jinnjya.jpeg)'});
+                //テキスト変更
+                $(".map_str").text("神社");
+            },
+                //元に戻す
+            function() {
+                $(".map_image").css({'background-image' : 'url(img/main.JPG)'});
+                //テキストなし
+                $(".map_str").text("");
+            });
+            // ②ホバー時に
+            $(".map_num2").hover(function() {
+                //画像変更
+                $(".map_image").css({'background-image' : 'url(img/hatake.JPG)'});
+                //テキスト変更
+                $(".map_str").text("畑");
+            },
+                //元に戻す
+            function() {
+                $(".map_image").css({'background-image' : 'url(img/main.JPG)'});
+                //テキストなし
+                $(".map_str").text("");
+            });
+            // ③ホバー時に
+            $(".map_num3").hover(function() {
+                //画像変更
+                $(".map_image").css({'background-image' : 'url(img/doukutu.JPG)'});
+                //テキスト変更
+                $(".map_str").text("洞窟");
+            },
+                //元に戻す
+            function() {
+                $(".map_image").css({'background-image' : 'url(img/main.JPG)'});
+                //テキストなし
+                $(".map_str").text("");
+            });
+            // ④ホバー時に
+            $(".map_num4").hover(function() {
+                //画像変更
+                $(".map_image").css({'background-image' : 'url(img/matikado.JPG)'});
+                //テキスト変更
+                $(".map_str").text("街角の踏切");
+            },
+                //元に戻す
+            function() {
+                $(".map_image").css({'background-image' : 'url(img/main.JPG)'});
+                //テキストなし
+                $(".map_str").text("");
+            });
+            // ⑤ホバー時に
+            $(".map_num5").hover(function() {
+                //画像変更
+                $(".map_image").css({'background-image' : 'url(img/roji-kaidan.JPG)'});
+                //テキスト変更
+                $(".map_str").text("住宅街の裏路地");
+            },
+                //元に戻す
+            function() {
+                $(".map_image").css({'background-image' : 'url(img/main.JPG)'});
+                //テキストなし
+                $(".map_str").text("");
+            });
+            // ⑥ホバー時に
+            $(".map_num6").hover(function() {
+                //画像変更
+                $(".map_image").css({'background-image' : 'url(img/eki.JPG)'});
+                //テキスト変更
+                $(".map_str").text("海がみえる駅");
+            },
+                //元に戻す
+            function() {
+                $(".map_image").css({'background-image' : 'url(img/main.JPG)'});
+                //テキストなし
+                $(".map_str").text("");
+            });
+            // ⑦ホバー時に
+            $(".map_num7").hover(function() {
+                //画像変更
+                $(".map_image").css({'background-image' : 'url(img/sanbashi.JPG)'});
+                //テキスト変更
+                $(".map_str").text("桟橋");
+            },
+                //元に戻す
+            function() {
+                $(".map_image").css({'background-image' : 'url(img/main.JPG)'});
+                //テキストなし
+                $(".map_str").text("");
+            });
+            // ⑧ホバー時に
+            $(".map_num8").hover(function() {
+                //画像変更
+                $(".map_image").css({'background-image' : 'url(img/koujyou-yakei.JPG)'});
+                //テキスト変更
+                $(".map_str").text("工場夜景");
+            },
+                //元に戻す
+            function() {
+                $(".map_image").css({'background-image' : 'url(img/main.JPG)'});
+                //テキストなし
+                $(".map_str").text("");
+            });
+            // ⑨ホバー時に
+            $(".map_num9").hover(function() {
+                //画像変更
+                $(".map_image").css({'background-image' : 'url(img/namiki.JPG)'});
+                //テキスト変更
+                $(".map_str").text("並木道");
+            },
+                //元に戻す
+            function() {
+                $(".map_image").css({'background-image' : 'url(img/main.JPG)'});
+                //テキストなし
+                $(".map_str").text("");
+            });
+            // ⑩ホバー時に
+            $(".map_num10").hover(function() {
+                //画像変更
+                $(".map_image").css({'background-image' : 'url(img/hodoukyou.JPG)'});
+                //テキスト変更
+                $(".map_str").text("歩道橋");
+            },
+                //元に戻す
+            function() {
+                $(".map_image").css({'background-image' : 'url(img/main.JPG)'});
+                //テキストなし
+                $(".map_str").text("");
+            });
+            // 11ホバー時に
+            $(".map_num11").hover(function() {
+                //画像変更
+                $(".map_image").css({'background-image' : 'url(img/yatai.JPG)'});
+                //テキスト変更
+                $(".map_str").text("ラーメン屋台");
+            },
+                //元に戻す
+            function() {
+                $(".map_image").css({'background-image' : 'url(img/main.JPG)'});
+                //テキストなし
+                $(".map_str").text("");
+            });
+        });
+    </script>
+</html>
