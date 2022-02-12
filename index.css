@@ -6,7 +6,7 @@
 }
 /* 背景指定 */
 html,body{
-	height: 100%;/* 高さを100%にして描画エリアをとる */
+	height: 100%;/*高さを100%にして描画エリアをとる*/
 }
 
 #particles-js{ 
@@ -153,7 +153,6 @@ header {
     padding: 5px 0;
     border-bottom: 2px solid #888; 
 }
-/* 島主紹介 end */
 
 /* タイトル */
 #title h1{
